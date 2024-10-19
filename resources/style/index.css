@@ -1,0 +1,200 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: 0px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #000000;
+  /* end of nav*/
+  /*end*/
+  /* end of container or section two*/
+}
+body nav {
+  width: 100%;
+  padding: 15px 1vw;
+  display: flex;
+  /*border: 1px solid;*/
+}
+body nav #logo {
+  width: 40%;
+  /*border: 1px solid;*/
+  padding-left: 2vw;
+}
+body nav #logo img {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body nav #links {
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: bold;
+}
+body nav #links a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  margin: 1px 1vw;
+}
+body nav #links a:nth-child(1), body nav #links a:nth-child(2), body nav #links a:nth-child(3) {
+  padding: 1px 2vw 1px 1px;
+  border-right: 1px solid #cecece;
+}
+body nav #actions {
+  width: 25%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: bold;
+}
+body nav #actions #userAction {
+  width: 40%;
+  height: 100%;
+  border-radius: 1vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  color: #000000;
+}
+body main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*home section*/
+  /*end of home section*/
+}
+body main section {
+  /*allsections common atribuit*/
+  width: 90%;
+  padding: 1vh 2vw;
+}
+body main #home {
+  background-image: url("../pics/joss-woodhead-tfEoT92EYlo-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  position: relative;
+  height: 50vh;
+  border-radius: 1vh;
+  margin-top: 10vh;
+  display: flex;
+  justify-content: center;
+  z-index: 0;
+}
+body main #home header {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+body main #home header h1 {
+  font-size: 3em;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-transform: capitalize;
+}
+body main #home p {
+  margin-top: 10px;
+  font-size: 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body main #home::after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  /*background-image: linear-gradient(180deg,#00000085,#0000002f);*/
+}
+body #container {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: -60px;
+}
+body #container section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*border: 1px solid red;*/
+  /* end of option*/
+  /*end */
+}
+body #container section .option {
+  width: 35%;
+  padding: 1vh;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 1vh 1vh 0vh 0vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+body #container section .option span {
+  font-size: 1.1em;
+  color: gray;
+  width: 33.3%;
+  padding: 2vh 2vw;
+  border-radius: 1vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body #container section .option span:nth-child(1) {
+  background-color: #000000;
+  color: white;
+}
+body #container section #searchinp {
+  background-color: #ffffff;
+  padding: 3vh;
+  display: flex;
+  border-radius: 1vh;
+}
+body #container section #searchinp span {
+  display: flex;
+  flex-direction: column;
+}
+body #container section #searchinp span label {
+  color: gray;
+}
+body #container section #searchinp span input {
+  padding: 1vh;
+  border: 1px solid #ffffff;
+  color: #000000;
+  font-size: 1rem;
+}
+body #container section #searchinp button {
+  height: 5vh;
+  width: 10vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1rem;
+  color: #ffffff;
+  border: none;
+  border-radius: 1vh;
+  background: #00aa55;
+}
+body #container section #text {
+  color: #cecece;
+  font-size: 0.8rem;
+  margin: 15px 10px;
+}/*# sourceMappingURL=index.css.map */

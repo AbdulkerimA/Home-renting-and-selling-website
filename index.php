@@ -94,12 +94,129 @@
             </section>
 
             <section id="about">
-                <div id="moto"></div>
-                <div id="aboutus"></div>
-                <div id="colab"></div>
+
+                <div id="moto">
+                    <p>
+                        we are in a mession to satisfy our customers
+                    </p>
+                </div>
+
+                <div id="aboutus">
+                    ZK provides the finest manstions, houses and
+
+                    appartemtns in the city with unblivable prices.
+
+                    <br> <br>
+
+                    by being our customer you can save your money and time
+                    <br>
+                    <br />
+                    also on ZK platform you can sell and rent your properties
+
+                    with a little cute by saving a lot.
+                </div>
+
+                <div id="colab">
+                    <h4>afelates</h4>
+                    <div>
+                        <img src="./resources/" alt="Ayat Realstate">
+                        <img src="./resources/" alt="Tsehay Realstate">
+                        <img src="./resources/" alt="goh appartments">
+                        <img src="./resources/" alt="ZK appartements">
+                    </div>
+
+                </div>
+
             </section>
 
         </div>
+        <!-- thierd section status section -->
+        <section id="status">
+
+            <div id="profit">
+                <span id="num">8.39%</span>
+                <span id="Text">profit return rate</span>
+            </div>
+
+            <div id="bar"></div>
+
+            <div id="aveliableSell">
+                <span id="num">12K+</span>
+                <span id="Text">property in sell</span>
+            </div>
+
+            <div id="bar"></div>
+
+            <div id="aveliableRent">
+                <span id="num">15K+</span>
+                <span id="Text">property in Rent</span>
+            </div>
+
+        </section>
+
+        <!-- fourth section propery section -->
+        <section id="properties">
+            <div id="title">
+                grate property <br>
+                to-take a look
+            </div>
+
+            <div class="properties">
+                <?php
+                for ($i = 0; $i < 8; $i++) {
+                ?>
+                    <div id="propertycont">
+                        <img src="./resources/pics/joss-woodhead-tfEoT92EYlo-unsplash.jpg" alt="propery">
+
+                        <div id="propertyInfo">
+                            <span id="pname">The red house</span>
+                            <span id="location">Addis Abeba</span>
+                        </div>
+
+                        <div id="agent">
+                            <div>
+                                <img src="" alt="" id="profile">
+                                <span id="name">abebe kebede</span>
+                            </div>
+                            <a href="./"><button>contact</button></a>
+                        </div>
+                    </div>
+                <?php
+                }
+                ?>
+
+            </div>
+
+            <div id="browseall">
+                <a href="./"><button>brows all</button></a>
+            </div>
+
+        </section>
+
+        <!-- testimonial section -->
+        <section id="testimonial">
+            <header>
+                <h3>
+                    Thousands of <br>
+                    satisfied customers
+                </h3>
+            </header>
+
+            <div id="customers">
+                <div id="customer">
+
+                    <span id="profile">
+                        <img src="./resources/" alt="">
+                        <span id="name"> alemayehu eejigu </span>
+                    </span>
+
+                    <span id="coment">
+                        here is my comment
+                    </span>
+                </div>
+            </div>
+
+        </section>
 
     </main>
 </body>

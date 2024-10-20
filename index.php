@@ -163,7 +163,7 @@
 
             <div class="properties">
                 <?php
-                for ($i = 0; $i < 8; $i++) {
+                for ($i = 0; $i < 9; $i++) {
                 ?>
                     <div id="propertycont">
                         <img src="./resources/pics/joss-woodhead-tfEoT92EYlo-unsplash.jpg" alt="propery">
@@ -203,20 +203,173 @@
             </header>
 
             <div id="customers">
-                <div id="customer">
 
-                    <span id="profile">
-                        <img src="./resources/" alt="">
-                        <span id="name"> alemayehu eejigu </span>
-                    </span>
+                <div id="cont">
+                    <?php
+                    for ($i = 0; $i < 4; $i++) {
+                    ?>
+                        <div id="customer">
 
-                    <span id="coment">
-                        here is my comment
-                    </span>
+                            <span id="profile">
+                                <img src="./resources/" alt="">
+                                <span id="name"> alemayehu eejigu </span>
+                            </span>
+
+                            <span id="coment">
+                                ah yes, my faveroit prlatform to listing my property
+                            </span>
+
+                        </div>
+
+                    <?php
+                    }
+                    ?>
                 </div>
+
+                <div id="cont">
+                    <?php
+                    for ($i = 0; $i < 4; $i++) {
+                    ?>
+                        <div id="customer">
+
+                            <span id="profile">
+                                <img src="./resources/" alt="">
+                                <span id="name"> alemayehu eejigu </span>
+                            </span>
+
+                            <span id="coment">
+                                ah yes, my faveroit prlatform to listing my property
+                            </span>
+
+                        </div>
+
+                    <?php
+                    }
+                    ?>
+                </div>
+
             </div>
 
         </section>
+
+        <!-- last section -->
+        <section id="last">
+
+            <div id="sec1">
+                <h3>
+                    are you ready <br>
+                    to do bussiness with us
+                </h3>
+
+                <p>
+                    we are the best platform for you to sell, buy, and rent a property with
+                    <br>
+                    the easiest and greatest way to operate
+                </p>
+
+                <a href="./">
+                    <button>get started</button>
+                </a>
+
+            </div>
+
+            <div id="sec2">
+                <h3>
+                    kep all in track
+                </h3>
+
+                <p>
+                    we have also a system that will track your
+                    <br>
+                    engagment of your properties.
+                </p>
+
+                <a href="./">
+                    listing details ->
+                </a>
+
+            </div>
+
+            <div id="sec3">
+                <h3>
+                    start the integration
+                </h3>
+
+                <p>
+                    learn about our platform, from how to
+                    <br>
+                    listing the properties and etc.
+                </p>
+
+                <a href="./">
+                    integration details ->
+                </a>
+
+            </div>
+
+        </section>
+
+        <footer>
+
+            <div id="top">
+
+                <div id="left">
+                    <span id="logo">
+                        <img src="./resources/" alt="ZK">
+                    </span>
+
+                    <span id="socialmedia">
+
+                    </span>
+                </div>
+
+                <div id="right">
+
+                    <span id="company">
+                        <h3>
+                            company
+                        </h3>
+                        <ul>
+                            <li>home</li>
+                            <li>about</li>
+                            <li>properties</li>
+                            <li>terms of service</li>
+                            <li>privacy policy</li>
+                        </ul>
+                    </span>
+
+                    <span id="resource">
+                        <h3>
+                            resource
+                        </h3>
+                        <ul>
+                            <li>whats new </li>
+                            <li>blog</li>
+                        </ul>
+                    </span>
+
+                    <span id="support">
+                        <h3>
+                            support
+                        </h3>
+                        <ul>
+                            <li>customer support </li>
+                            <li>contact us</li>
+                            <li>FAQs</li>
+                        </ul>
+                    </span>
+
+                </div>
+
+            </div>
+
+            <div id="bottom">
+                <span id="cp">
+                    copyright 2024 ZK.inc all rights reserved
+                </span>
+            </div>
+
+        </footer>
 
     </main>
 </body>

@@ -15,6 +15,9 @@ body {
   /* end of container or section two*/
   /*therd section status*/
   /*end of status section*/
+  /*end of property section*/
+  /*end of testimonials*/
+  /*end of last section*/
 }
 body nav {
   width: 100%;
@@ -90,9 +93,9 @@ body main #home {
   background-position: center;
   background-size: 100% 100%;
   position: relative;
-  height: 60vh;
+  height: 70vh;
   border-radius: 1vh;
-  margin-top: 10vh;
+  margin-top: 5vh;
   display: flex;
   justify-content: center;
   z-index: 0;
@@ -133,7 +136,7 @@ body #container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  top: -60px;
+  top: -120px;
   /*end of search section*/
   /*end of about section*/
 }
@@ -369,4 +372,188 @@ body #properties #browseall a button {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+body #testimonial {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 4vh 0px 10vh 0px;
+}
+body #testimonial header {
+  width: 90%;
+  margin: 20px 0px 20px 0px;
+}
+body #testimonial header h3 {
+  font-size: 2rem;
+  text-align: left;
+}
+body #testimonial #customers {
+  width: 100%;
+  overflow-x: hidden;
+  display: flex;
+}
+body #testimonial #customers #cont {
+  width: 100%;
+  position: relative;
+  display: flex;
+  animation: 20s slideshow infinite linear;
+}
+body #testimonial #customers #cont #customer {
+  position: relative;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: darkslategray;
+  border-radius: 1vh;
+  display: flex;
+  flex-direction: column;
+  padding: 1vh 0.5vh;
+  margin: 0px 0.5vw;
+}
+body #testimonial #customers #cont #customer #profile {
+  display: flex;
+  justify-content: first baseline;
+}
+body #testimonial #customers #cont #customer #profile img {
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+  border-radius: 1vh;
+}
+body #testimonial #customers #cont #customer #profile #name {
+  font-size: 1rem;
+}
+body #testimonial #customers #cont #customer #coment {
+  width: 250px;
+  font-size: 0.9rem;
+  margin-left: 30px;
+}
+@keyframes slideshow {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+body #last {
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #00aa55;
+  margin: 25px 0px 10px 0px;
+  padding: 4vh 2vw;
+  border-radius: 1vh;
+}
+body #last #sec1 {
+  width: 40%;
+}
+body #last #sec1 h3 {
+  font-size: 1.3rem;
+  margin-bottom: 3vh;
+}
+body #last #sec1 p {
+  font-size: 0.8rem;
+  margin-bottom: 3vh;
+}
+body #last #sec1 a {
+  text-decoration: none;
+  margin-bottom: 3vh;
+}
+body #last #sec1 a button {
+  font-weight: bold;
+  padding: 1vh 2vw;
+  border: none;
+  border-radius: 1vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  color: #000000;
+}
+body #last #sec2 {
+  width: 25%;
+}
+body #last #sec2 h3 {
+  font-size: 1.3rem;
+  margin-bottom: 3vh;
+}
+body #last #sec2 p {
+  font-size: 0.8rem;
+  margin-bottom: 3vh;
+}
+body #last #sec2 a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+body #last #sec3 {
+  width: 25%;
+}
+body #last #sec3 h3 {
+  font-size: 1.3rem;
+  margin-bottom: 3vh;
+}
+body #last #sec3 p {
+  font-size: 0.8rem;
+  margin-bottom: 3vh;
+}
+body #last #sec3 a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+body footer {
+  width: 100%;
+  border-top: 1px solid gray;
+  padding: 5vh 0px;
+  margin-top: 10vh;
+}
+body footer #top {
+  display: flex;
+  margin: 20px 0px 100px 0px;
+}
+body footer #top #left {
+  width: 45%;
+  margin-left: 3vw;
+}
+body footer #top #left #logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 1vh;
+}
+body footer #top #left #socialmedia {
+  display: flex;
+  align-items: center;
+}
+body footer #top #left #socialmedia i {
+  margin-right: 1vw;
+  font-size: 1rem;
+  color: gray;
+}
+body footer #top #right {
+  width: 45%;
+  display: flex;
+  justify-content: space-evenly;
+}
+body footer #top #right span h3 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 2vh;
+}
+body footer #top #right span ul {
+  list-style: none;
+}
+body footer #top #right span ul li {
+  font-size: 0.9rem;
+  margin-bottom: 1vh;
+  color: gray;
+}
+body footer #bottom {
+  margin-left: 3vw;
+}
+body footer #bottom span {
+  font-size: 0.9rem;
+  color: gray;
 }/*# sourceMappingURL=index.css.map */

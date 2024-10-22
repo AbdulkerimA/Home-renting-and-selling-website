@@ -10,35 +10,7 @@
 </head>
 
 <body>
-    <nav>
-        <div id="logo">
-            <img src="./" alt="ZK">
-        </div>
-
-        <div id="links">
-            <a href="#" id="Home">
-                Home
-            </a>
-
-            <a href="#" id="About">
-                Abount
-            </a>
-
-            <a href="#" id="propertiesLink">
-                properties
-            </a>
-
-            <a href="#" id="agentsLink">
-                Agents
-            </a>
-        </div>
-
-        <div id="actions">
-            <span><a href="./login.php">login</a></span>
-            <span id="userAction">Get Started</span>
-        </div>
-
-    </nav>
+    <?php require "./header.php" ?>
 
     <!-- start of main section -->
     <main class="main">
@@ -188,7 +160,7 @@
             </div>
 
             <div id="browseall">
-                <a href="./"><button>brows all</button></a>
+                <a href="./properties.php"><button>brows all</button></a>
             </div>
 
         </section>
@@ -309,67 +281,7 @@
 
         </section>
 
-        <footer>
-
-            <div id="top">
-
-                <div id="left">
-                    <span id="logo">
-                        <img src="./asset/" alt="ZK">
-                    </span>
-
-                    <span id="socialmedia">
-
-                    </span>
-                </div>
-
-                <div id="right">
-
-                    <span id="company">
-                        <h3>
-                            company
-                        </h3>
-                        <ul>
-                            <li>home</li>
-                            <li>about</li>
-                            <li>properties</li>
-                            <li>terms of service</li>
-                            <li>privacy policy</li>
-                        </ul>
-                    </span>
-
-                    <span id="resource">
-                        <h3>
-                            resource
-                        </h3>
-                        <ul>
-                            <li>whats new </li>
-                            <li>blog</li>
-                        </ul>
-                    </span>
-
-                    <span id="support">
-                        <h3>
-                            support
-                        </h3>
-                        <ul>
-                            <li>customer support </li>
-                            <li>contact us</li>
-                            <li>FAQs</li>
-                        </ul>
-                    </span>
-
-                </div>
-
-            </div>
-
-            <div id="bottom">
-                <span id="cp">
-                    copyright 2024 ZK.inc all rights reserved
-                </span>
-            </div>
-
-        </footer>
+        <?php require "./footer.php" ?>
 
     </main>
 </body>

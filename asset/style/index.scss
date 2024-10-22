@@ -46,6 +46,9 @@ body{
                 padding: 1px 2vw 1px 1px;
                 border-right: 1px solid #cecece;
             }
+            a:hover{
+                color: #00aa55;
+            }
         }
         #actions{
             width: 25%;
@@ -54,6 +57,16 @@ body{
             align-items: center;
             font-size: 1rem;
             font-weight: bold;
+            span{
+                a{
+                    text-decoration: none;
+                }
+            }
+            span:hover{
+                a{
+                    color: #00aa55;
+                }
+            }
             #userAction{
                 width: 40%;
                 height: 100%;
@@ -393,7 +406,7 @@ body{
                 #customer{
                     position: relative;
                     width: fit-content;
-                    background-color: darkslategray;
+                    background-color: #282828;
                     border-radius: 1vh;
                     display: flex;
                     flex-direction: column;

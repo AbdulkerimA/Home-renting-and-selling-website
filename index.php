@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ZK</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./resources/style/index.css">
+    <link rel="stylesheet" href="./asset/style/index.css">
 </head>
 
 <body>
@@ -34,7 +34,7 @@
         </div>
 
         <div id="actions">
-            <span>login</span>
+            <span><a href="./login.php">login</a></span>
             <span id="userAction">Get Started</span>
         </div>
 
@@ -119,10 +119,10 @@
                 <div id="colab">
                     <h4>afelates</h4>
                     <div>
-                        <img src="./resources/" alt="Ayat Realstate">
-                        <img src="./resources/" alt="Tsehay Realstate">
-                        <img src="./resources/" alt="goh appartments">
-                        <img src="./resources/" alt="ZK appartements">
+                        <img src="./asset/" alt="Ayat Realstate">
+                        <img src="./asset/" alt="Tsehay Realstate">
+                        <img src="./asset/" alt="goh appartments">
+                        <img src="./asset/" alt="ZK appartements">
                     </div>
 
                 </div>
@@ -166,7 +166,7 @@
                 for ($i = 0; $i < 9; $i++) {
                 ?>
                     <div id="propertycont">
-                        <img src="./resources/pics/joss-woodhead-tfEoT92EYlo-unsplash.jpg" alt="propery">
+                        <img src="./asset/pics/joss-woodhead-tfEoT92EYlo-unsplash.jpg" alt="propery">
 
                         <div id="propertyInfo">
                             <span id="pname">The red house</span>
@@ -211,7 +211,7 @@
                         <div id="customer">
 
                             <span id="profile">
-                                <img src="./resources/" alt="">
+                                <img src="./asset/" alt="">
                                 <span id="name"> alemayehu eejigu </span>
                             </span>
 
@@ -233,7 +233,7 @@
                         <div id="customer">
 
                             <span id="profile">
-                                <img src="./resources/" alt="">
+                                <img src="./asset/" alt="">
                                 <span id="name"> alemayehu eejigu </span>
                             </span>
 
@@ -315,7 +315,7 @@
 
                 <div id="left">
                     <span id="logo">
-                        <img src="./resources/" alt="ZK">
+                        <img src="./asset/" alt="ZK">
                     </span>
 
                     <span id="socialmedia">

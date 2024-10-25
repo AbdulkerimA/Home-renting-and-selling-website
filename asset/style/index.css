@@ -536,11 +536,13 @@ body footer #top #left #logo {
 body footer #top #left #socialmedia {
   display: flex;
   align-items: center;
+  margin-top: 50px;
 }
 body footer #top #left #socialmedia i {
   margin-right: 1vw;
-  font-size: 1rem;
+  font-size: 2rem;
   color: gray;
+  margin-right: 30px;
 }
 body footer #top #right {
   width: 45%;

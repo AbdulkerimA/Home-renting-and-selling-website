@@ -1,29 +1,43 @@
-    <nav>
-        <div id="logo">
-            <img src="./" alt="ZK">
-        </div>
+    <!DOCTYPE html>
+    <html lang="en">
 
-        <div id="links">
-            <a href="#" id="Home">
-                Home
-            </a>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./asset/style/index.css">
+    </head>
 
-            <a href="#" id="About">
-                Abount
-            </a>
+    <body>
+        <nav>
+            <div id="logo">
+                <img src="./" alt="ZK">
+            </div>
 
-            <a href="./properties.php" id="propertiesLink">
-                properties
-            </a>
+            <div id="links">
+                <a href="#" id="Home">
+                    Home
+                </a>
 
-            <a href="#" id="agentsLink">
-                Agents
-            </a>
-        </div>
+                <a href="#" id="About">
+                    Abount
+                </a>
 
-        <div id="actions">
-            <span><a href="./login.php">login</a></span>
-            <span id="userAction">Get Started</span>
-        </div>
+                <a href="./properties.php" id="propertiesLink">
+                    properties
+                </a>
 
-    </nav>
+                <a href="#" id="agentsLink">
+                    Agents
+                </a>
+            </div>
+
+            <div id="actions">
+                <span><a href="./login.php">login</a></span>
+                <span id="userAction">Get Started</span>
+            </div>
+
+        </nav>
+
+    </body>
+
+    </html>

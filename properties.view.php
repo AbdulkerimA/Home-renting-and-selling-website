@@ -6,12 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ZK properties</title>
     <link rel="stylesheet" href="./asset/style/properties.css">
-    <link rel="stylesheet" href="./asset/style/index.css">
 </head>
 
 <body>
 
-    <?php require "./header.php"; ?>
     <section id="propertiesSection">
 
         <div id="title">
@@ -51,7 +49,7 @@
                                 <img src="" alt="" id="profile">
                                 <span id="name">abebe kebede</span>
                             </div>
-                            <a href="./"><button>contact</button></a>
+                            <a href="./"><button>more info</button></a>
                         </div>
                     </div>
                 <?php endfor; ?>
@@ -60,7 +58,6 @@
         </div>
 
     </section>
-    <?php require "./footer.php"; ?>
 </body>
 
 <script src="">

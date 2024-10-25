@@ -23,7 +23,8 @@
                 </div>
                 <span>or use your email for registration</span>
                 -->
-                <input type="text" placeholder="Name" />
+                <input type="text" placeholder="Full Name" />
+                <input type="number" name="phone" id="phonee" placeholder="09">
                 <input type="email" placeholder="Email" />
                 <input type="password" placeholder="Password" />
                 <button>Sign Up</button>

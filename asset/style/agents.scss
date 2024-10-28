@@ -1,0 +1,125 @@
+body{
+    #agent{
+        margin: 50px 0px;
+        width: 90%;
+        header{
+            width: 100%;
+            padding: 2vh 20px;
+            h1{
+                width: 100%;
+                color: #C0c0c0;
+            }
+        }
+    }
+        #catagory{
+            width: 100%;
+            display:flex;
+            margin-bottom: 4vh;
+            #catagoryButtons{
+                width: 50%;
+                display: flex;
+                padding: 1vh 1vw;
+                span{
+                    margin-right: 2vw;
+                    font-size: .9rem;
+                    color: #c0c0c0;
+                    padding: 2px 5px;
+                }
+                span:hover{
+                    color: #00aa55;
+                }
+            }
+            #search{
+                width: 50%;
+                position: relative;
+                form{
+                    width: 70%;
+                    display: flex;
+                    align-items: center;
+                    position: absolute;
+                    right: 0%;
+                    input{
+                        height:4vh;
+                        width: 90%;
+                        outline: none;
+                        border: 1px solid gray;
+                        border-right: none;
+                        border-radius: 1vh 0vh 0vh 1vh;
+                        padding: 1px 2px;
+                        background-color:transparent;
+                        color: #c0c0c0;
+                    }
+                    button{
+                        width:10%;
+                        height: 4vh;
+                        background-color: transparent;
+                        border: none;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        i{
+                            background-color: transparent;
+                            width: 100%;
+                            position: relative;
+                            left: -5px;
+                            height: 95%;
+                            font-size: 1.2rem;
+                            border: 1px solid gray;
+                            border-left: none;
+                            border-radius: 0px 1vh 1vh 0px;
+                            padding: 0px 2px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                    }
+                }
+            }
+        }
+    }/*end of catagory section*/
+    #profiles{
+        width: 90%;
+        margin-top: 30px;
+        padding: 50px 0px;
+        border-top:1px solid gray;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        #agentProfile{
+            margin: 20px 0px;
+            width: 50%;
+            height: 30vh;
+            border: 1px solid gray;
+            display: flex;
+            img{
+                width: 40%;
+                height: 100%;
+            }
+            #info{
+                width: 60%;
+                padding: 2vh;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                background-color: #282828;
+                h2{
+                    position: relative;
+                    top: -10px;
+                    font-size: 1.5rem;
+                    margin: 10px;
+                }
+                span{
+                    font-size: .8rem;
+                    margin: 10px;
+                    a{
+                        color: #00aa55;
+                        font-size: .9rem;
+                        text-decoration: none;
+                    }
+                    a:hover{
+                        transform: scale(1.2);
+                    }
+                }
+            }
+        }
+    }
+}

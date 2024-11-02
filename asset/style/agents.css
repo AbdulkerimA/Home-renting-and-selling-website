@@ -1,4 +1,7 @@
 body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   /*end of catagory section*/
 }
 body #agent {
@@ -88,38 +91,51 @@ body #profiles {
   justify-content: center;
 }
 body #profiles #agentProfile {
-  margin: 20px 0px;
-  width: 50%;
+  margin: 20px 10px;
+  width: 45%;
   height: 30vh;
-  border: 1px solid gray;
+  border: 2px solid gray;
+  border-radius: 1vh;
   display: flex;
 }
 body #profiles #agentProfile img {
-  width: 40%;
+  width: 35%;
   height: 100%;
+  border-radius: 1vh 0px 0px 1vh;
 }
 body #profiles #agentProfile #info {
-  width: 60%;
+  width: 65%;
   padding: 2vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   background-color: #282828;
+  border-radius: 0vh 1vh 1vh 0px;
 }
 body #profiles #agentProfile #info h2 {
   position: relative;
   top: -10px;
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin: 10px;
 }
 body #profiles #agentProfile #info span {
-  font-size: 0.8rem;
+  font-size: 1.1rem;
+  font-weight: bold;
   margin: 10px;
+  color: #00aa55;
+}
+body #profiles #agentProfile #info span i {
+  color: #00aa55;
+  font-size: 1.3rem;
 }
 body #profiles #agentProfile #info span a {
   color: #00aa55;
-  font-size: 0.9rem;
+  font-size: 1rem;
+  font-weight: bold;
   text-decoration: none;
+}
+body #profiles #agentProfile #info span a i {
+  font-size: 1rem;
+  font-weight: lighter;
 }
 body #profiles #agentProfile #info span a:hover {
   transform: scale(1.2);

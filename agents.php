@@ -39,23 +39,27 @@
     <section id="profiles">
         <?php for ($i = 0; $i < 6; $i++) : ?>
             <div id="agentProfile">
-                <img src="./" alt="profile">
+                <img src="./asset/pics/users/user11.jpg" alt="profile">
                 <div id="info">
                     <h2>
                         agent information
                     </h2>
                     <span>
-                        agent name : abebe kebede
+                        abebe kebede
                     </span>
                     <span>
-                        rating : *****
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
                     </span>
                     <span>
-                        number property selled : 10
+                        10 properties sold
                     </span>
                     <span>
                         <a href="./properties.php">
-                            show propertis listed by abebe kebede ->
+                            listed properties <i class="fa fa-arrow-right" aria-hidden="true"></i>
                         </a>
                     </span>
                 </div>

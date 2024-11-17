@@ -1,0 +1,55 @@
+#dashboard{
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    #users{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1vh 0px;
+        div{
+            width: 33%;
+            padding: 1vh;
+            margin: 1vw;
+            background-color: #ffffff;
+            box-shadow: 3px 3px 2px gray;
+            border-radius: 1vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            #num{
+                font-size: 2rem;
+                color: gray;
+            }
+            #title{
+                font-size: 1.1rem;
+                color: gray;
+            }
+        }
+    }/*end of users*/
+    #statstics{
+        width: 90%;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        #pfor,#types{
+            margin: 1vh;
+            box-shadow: 3px 3px 2px gray;
+            border-radius: 1vh;
+        }
+    }
+    #coments{
+        width: 100%;
+        height: fit-content;
+        padding: 1vh 0px;
+        margin: 1vh 0px;
+        display: flex;
+        justify-content: center;
+    }
+
+}

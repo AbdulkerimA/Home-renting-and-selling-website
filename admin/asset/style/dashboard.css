@@ -1,0 +1,57 @@
+#dashboard {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  /*end of users*/
+}
+#dashboard #users {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1vh 0px;
+}
+#dashboard #users div {
+  width: 33%;
+  padding: 1vh;
+  margin: 1vw;
+  background-color: #ffffff;
+  box-shadow: 3px 3px 2px gray;
+  border-radius: 1vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#dashboard #users div #num {
+  font-size: 2rem;
+  color: gray;
+}
+#dashboard #users div #title {
+  font-size: 1.1rem;
+  color: gray;
+}
+#dashboard #statstics {
+  width: 90%;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+}
+#dashboard #statstics #pfor, #dashboard #statstics #types {
+  margin: 1vh;
+  box-shadow: 3px 3px 2px gray;
+  border-radius: 1vh;
+}
+#dashboard #coments {
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 1vh 0px;
+  margin: 1vh 0px;
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=dashboard.css.map */

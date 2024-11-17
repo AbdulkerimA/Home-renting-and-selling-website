@@ -1,0 +1,96 @@
+#editproperty {
+  width: 90%;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#editproperty #img {
+  width: 80%;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 5px dashed gray;
+  border-radius: 1vh;
+  margin: 2vh 2vw;
+  background-color: #fff;
+}
+#editproperty #img h2 {
+  font-size: 1.3rem;
+  font-family: sans-serif;
+  color: #5d82b8;
+}
+#editproperty #img img {
+  width: 500px;
+  height: 400px;
+  border-radius: 1vh;
+  margin: 1vh 0px;
+}
+#editproperty #img form {
+  margin: 1vh 0px;
+}
+#editproperty #img form input {
+  width: 100%;
+  height: 100%;
+}
+#editproperty #propertyinfo {
+  width: 80%;
+  background-color: #fff;
+  border-radius: 1vh;
+}
+#editproperty #propertyinfo h2 {
+  font-size: 1.3rem;
+  font-family: sans-serif;
+  color: #5d82b8;
+  margin-bottom: 1vh;
+}
+#editproperty #propertyinfo form {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+#editproperty #propertyinfo form div {
+  margin: 1vh 1vw;
+  display: flex;
+  flex-direction: column;
+}
+#editproperty #propertyinfo form div label {
+  font-size: 0.9rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #5d82b8;
+  margin: 5px 0px;
+}
+#editproperty #propertyinfo form div input {
+  padding: 5px;
+  font-size: 0.9rem;
+  color: gray;
+  border-radius: 1vh;
+  border: 1px solid #5d82b8;
+}
+#editproperty #propertyinfo form div #pname {
+  width: 25vw;
+}
+#editproperty #propertyinfo form div #pcatagory {
+  width: 25vw;
+}
+#editproperty #propertyinfo form div #location {
+  width: 50vw;
+  height: 5vh;
+}
+#editproperty #propertyinfo form button {
+  width: 15vw;
+  margin: 5px 2vw;
+  padding: 2vh 2vw;
+  font-size: 1rem;
+  color: #5d82b8;
+  border: 1px solid #5d82b8;
+  border-radius: 1vh;
+  background-color: #fff;
+}
+#editproperty #propertyinfo form button:hover {
+  transform: scale(0.98);
+}/*# sourceMappingURL=edit.css.map */
